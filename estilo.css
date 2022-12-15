@@ -1,0 +1,261 @@
+/*******************************
+
+estilizaçao da pagina index.html
+
+********************************/
+
+
+/* letras e texto do site  */
+h1,h3
+{
+	text-align: justify-all;
+	text-align: center;
+	color: white;
+	margin: 10px;
+     
+}
+
+/* ---------------------------------------------------------------- */
+
+ /* caixa do header do site  */
+#CabecalhoDaPagina
+{
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    margin: 5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+
+/* caixa do lado esquerdo do site  */
+#CaixaLadoEsquerdo
+{
+	background-color: red;
+    width: 25%;
+    height: 500px;
+    float: left;
+    margin: 5px;
+}
+
+ /* ---------------------------------------------------------------- */
+
+
+/* menu do site que esta do lado direito da pagina  */
+#CaixaLadoDireitoMenu
+{
+	background-color: red;
+    width: 25%;
+    height: 500px;
+    float: right;
+    margin-top: 5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+
+/* estilização do menu  */
+
+nav li a 
+{ 
+	color: rgb(203, 209, 223);
+	text-decoration: none;
+	background-color: rgb(50, 60, 197);
+	padding: 10px;	
+	
+}
+
+nav li
+{
+	list-style: none;
+	margin-left: 110px;
+	padding: 20px 20px
+
+}
+
+/* estilizando quando o botao do mouse passa sobre a palavra */
+nav li a:hover
+{
+     color: black;
+	 background-color: darkgreen;
+     padding: 10px;
+}
+
+/* ---------------------------------------------------------------- */
+
+
+ /* caixa central do site  */
+#caixaCentral
+{
+	background-color: red;
+    width: 48%;
+    height: 500px;
+    float: left;
+    margin: 5px;
+}
+
+
+ /* caixa  interna da cor rosa da caixa central do site  */
+#CaixaCentralArtigo
+{
+	background-color: pink;
+	width: 560px;
+	height: 400px;
+	margin: 10px;
+	padding-top: 5px;
+}
+
+ /* caixa de cima da cor azul da caixa central do site  */
+#CabecalhoArtigo
+{
+	background-color: blue;
+	width: 540px;
+	height: 80px;
+	margin: 10px;
+	 	 
+}	 
+
+
+/* estilizaçao da imagem do site  */
+
+img
+{
+    height: 190px;
+	width: 180px;
+	margin-left: 150px;
+}
+
+
+/* caixa do rodape da caixa central do site  */
+#CaixaRodapeArtigo
+{
+	background-color: blue;
+	width: 540px;
+	height: 80px;
+	margin: 10px;
+	margin-bottom: 280px;
+}
+
+/* ------------------------------------------------------------- */
+
+ /* Rodape da pagina  */
+#CaixaFundoPaginaRodape{
+	background-color: red;
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+ 		 /********************************************************
+
+  			INICIO DA  ESTILIZAÇÃO DA RESPONSIVIDADE DO SITE
+
+ 		 ********************************************************/
+
+
+@media screen and (max-width:500px) {
+	
+	
+#CabecalhoDaPagina{
+	background-color: rgb(63, 22, 117);
+	width:  100%;
+	height: 150px;
+		
+}
+	
+/* estilizaçao do menu 	 */
+#CaixaLadoDireitoMenu
+{
+	background-color: rgb(52, 240, 14);
+    width: 99%;
+    height: 190px;
+    margin-top: -810px;
+}
+
+/* estilizaçao do menu  */
+   nav li 
+   {
+	  float: left;
+	  display: block;
+   }
+
+   /* estilizaçao quando o passa o mouse em cima da caixa */
+   nav li a:hover
+   {
+	color: darkred;
+	background-color: blueviolet; 
+
+   }
+
+ /* ------------------------------------------------------------------- */
+
+/* caixa lado esquerdo */
+#CaixaLadoEsquerdo{
+	background-color: rgb(0, 174, 255);
+    width: 100%;
+    height: 100px;  
+	margin-top: 200px;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* caixa central */
+#caixaCentral{
+	background-color: rgb(155, 121, 121);
+    width: 100%;
+    height: 500px;       
+}
+
+/* caixa de dentro  pertencente a caixa central */
+#CaixaCentralArtigo{
+	background-color: pink;
+	width: 95%;
+	height: 400px;
+	 	 
+}
+ /* caixa de cima ( barra de cima) pertencente a caixa central de cor pink */
+#CabecalhoArtigo
+{
+	background-color: blue;
+	width: 95%;
+	height: 60px;
+	margin-top: auto;
+	 
+}	 
+ /* caixa  de baixo (barra de baixo) pertencente a caixa central de cor pink */
+#CaixaRodapeArtigo
+{
+	background-color: blue;
+	width: 95%;
+	height: 60px;
+	margin-top: 40px;	 
+}
+ /* configuraçao da imagem do site na caixa central */
+
+   img{
+      width: 200px;
+	  height: 200px;
+	  margin-left: 80px;
+ }
+
+
+/* -------------------------------------------------------------------------- */
+
+ /* caixa do rodape da pagina */
+#CaixaFundoPaginaRodape
+{
+	background-color: red;
+    width: 100%;
+    height: 300px;     
+}
+
+
+}
+/* fim da estilizaçao do site  */
